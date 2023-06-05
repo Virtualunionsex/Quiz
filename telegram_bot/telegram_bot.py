@@ -263,9 +263,9 @@ def main():
 
 class DefaultConfig:
     PORT = int(os.environ.get("PORT", 3978))
-    TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
+    TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "5991749515:AAGAnFwmK3RfqWO5qY-fhseLFB3M6StYT1Q")
     MODE = os.environ.get("MODE", "polling")
-    WEBHOOK_URL = os.environ.get("WEBHOOK_URL", "")
+    WEBHOOK_URL = os.environ.get("WEBHOOK_URL", "https://webhook.site/b6779c79-b522-4fa6-a06f-d3b69dace122")
 
     LOG_LEVEL = os.environ.get("LOG_LEVEL", "INFO").upper()
 
